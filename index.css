@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+body, html{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	color: #fff;
+
+}
+
+.borda {
+	border : 1px solid red;
+}
+
+#home {
+	background: url("./img/img-central.jpg") no-repeat 50% 50%;
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#h1-title{
+	font-family: 'Russo one', sans-serif;
+	font-size: 5em;
+	/*font-weight: 800;*/
+	color: #fff900;
+	/*line-height: 1.2;*/
+}
+
+.h3-custom
+{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 800;
+}
+
+
+
+.btg-central
+{
+	color: #000;
+	background: #fff900;
+	font-weight: 800;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.content-page 
+{
+	margin: 10px;
+	color: #000;
+	background: red;
+}
+
+.imagens-div
+{
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-direction: row;*/
+	justify-content: center;
+	/*align-items: center;*/
+
+	/*padding : 20px;*/
+
+
+}
+
+.imagens-div img {
+	padding: 10px;
+
+	transition: all 0.5s; 
+
+	width: 400px;
+	height: 300px;
+
+}
+
+.imagens-div img:hover {
+	transform: scale(1.07);
+	animation: true;
+}
+
+footer {
+	background: black;
+	/*color: black;*/
+	/*background-color: black;*/
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	font-family: 'Russo One';
+}
+
+footer a {
+	color:#fff900;
+}
+
+/*footer a:link, footer a:active  {
+	
+}*/
+
+footer a:hover {
+	color: #fff900;
+	/*text-decoration: none;*/
+}
+
+footer a:visited {
+	color: red;
+}
