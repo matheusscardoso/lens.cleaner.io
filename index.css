@@ -67,17 +67,12 @@ body, html{
 	/*flex-direction: row;*/
 	justify-content: center;
 	/*align-items: center;*/
-
 	/*padding : 20px;*/
-
-
 }
 
 .imagens-div img {
 	padding: 10px;
-
 	transition: all 0.5s; 
-
 	width: 400px;
 	height: 300px;
 
